@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #131313;
+}
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Shred Styles */
+.d-flex {
+    display: flex;
+}
+
+.dark-1 {
+    color: #131313;
+}
+
+.dark-2 {
+    color: #424242;
+}
+
+.dark-3 {
+    color: #727272;
+}
+
+.primary-color {
+    color: #FF900E;
+}
+
+.bg-primary {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+.section-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+
+/* Header Styles */
+
+
+/* Navbar styles */
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.brand {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+.nav-links {
+    list-style: none;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Banner Styles */
+.banner {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.banner-description {
+    font-size: 1rem;
+    margin-top: 20px;
+    margin: 32px 0;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main Section */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Feature section */
+
+.feature {
+    margin-top: 80px;
+    margin-bottom: 130px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.feature-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    width: 48%;
+}
+
+.feature-img-container img {
+    width: 100%;
+}
+
+.feature-content {
+    width: 48%;
+}
+
+
+
+/* Experience Section */
+
+.experience {
+    margin-bottom: 130px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.exp-content,
+.exp-img {
+    width: 48%;
+}
+
+.exp-img img {
+    width: 100%;
+}
+
+.exp-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 53px;
+    padding-left: 20px;
+    border-left: 5px solid #FF900E;
+}
+
+.exp-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.exp-cards {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.exp-card {
+    padding: 30px 35px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.exp-card h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.exp-card p {
+    padding-top: 10px;
+    line-height: 26px;
+}
+
+/* Facts Section */
+.facts {
+    margin-bottom: 130px;
+}
+
+.fact-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.fact-card {
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 35px;
+    border-radius: 8px;
+    
+    
+}
+
+.fact-card h4 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 23px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.fact-card p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.fact-img {
+    width: 30%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.fact-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Sponsor Section */
+.sponsor {
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.sponsor-logos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.sponsor-logos img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+
+}
+
+/* Footer Section */
+footer {
+    margin: 0 auto;
+    color: white;
+    padding: 40px 0;
+    border-radius:8px ;
+    text-align: center;
+}
+
+
+
+
+
+
+/* responsive media queries */
+@media screen and (max-width: 576px) {
+
+    /* Common Section */
+    .btn-primary {
+        padding: 10px 16px;
+        border-radius: 8px;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    /* Header */
+
+    header {
+        padding: 0 20px;
+    }
+
+    .navbar {
+        padding: 20px 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .brand {
+        font-size: 1.8rem;
+        line-height: 35px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .banner {
+        padding: 20px 0;
+    }
+
+    .banner-content {
+        margin-bottom: 20px;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+
+    .banner-description {
+        font-size: 1rem;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    /* Feature section */
+    .feature {
+        margin-top: 30px;
+        margin-bottom: 60px;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .feature-img-container {
+        order: 2;
+
+        gap: 10px;
+        width: 100%;
+    }
+
+    .feature-img-container img {
+        width: 100%;
+    }
+
+    .feature-content {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    .section-description {
+        margin-top: 12px;
+        margin-bottom: 16px;
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    /* Experience Section */
+
+    .experience {
+        margin-bottom: 50px;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .exp-content,
+    .exp-img {
+        width: 100%;
+    }
+
+    .exp-title {
+        border: none;
+        padding-bottom: 10px;
+        border-bottom: 5px solid #FF900E;
+    }
+
+    .exp-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .exp-card {
+        padding: 30px 35px;
+
+    }
+
+    .facts{
+        padding: 0 20px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .fact-cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .fact-card {
+        padding:35px;
+    }
+
+    .fact-card h4 {
+        font-size: 2rem;
+    }
+
+    .sponsor {
+        margin-bottom: 50px;
+        padding: 0 20px;
+    }
+    
+    .sponsor-logos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        margin-top: 50px;
+    }
+    #img-5 {
+        grid-column: span 2;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .btn-primary {
+        padding: 12px 20px;
+        border-radius: 8px;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    header {
+        padding: 0 30px;
+    }
+
+    .navbar {
+        padding: 30px 0;
+        /* flex-direction: column; */
+        /* gap: 20px; */
+    }
+
+    .nav-links {
+        gap: 30px;
+    }
+
+    .brand {
+        font-size: 1.8rem;
+        line-height: 35px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .banner {
+        padding: 30px 0;
+    }
+
+    .banner-content {
+        margin-bottom: 30px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+        line-height: 55px;
+    }
+
+    .banner-description {
+        font-size: 1rem;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    /* Feature section */
+    .feature {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .feature-img-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        order: 2;
+        gap: 15px;
+    }
+
+
+    .feature-content {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .section-description {
+        margin-top: 18px;
+        margin-bottom: 25px;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    /* Experience Section */
+    .experience {
+        margin-bottom: 70px;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        padding: 0 40px;
+    }
+
+    .exp-content {
+        width: 100%;
+    }
+
+    .exp-img {
+        display: none;
+    }
+
+    .exp-title {
+        border: none;
+    }
+
+    .exp-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .exp-card {
+        padding: 30px 35px;
+
+    }
+
+    .facts{
+        padding: 0 40px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .fact-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .fact-card {
+        padding:35px;
+    }
+
+    .fact-card h4 {
+        font-size: 2.2rem;
+    }
+
+    .sponsor {
+        margin-bottom: 80px;
+        padding: 0 40px;
+    }
+    
+    .sponsor-logos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 150px;
+        margin-top: 50px;
+    }
+    #img-5 {
+        grid-column: span 2;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width:1440px) {
+
+    header {
+        padding: 0 40px;
+    }
+
+    .navbar {
+        padding: 35px 0;
+        /* flex-direction: column; */
+        /* gap: 20px; */
+    }
+
+    .nav-links {
+        gap: 40px;
+    }
+
+    .brand {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .banner {
+        padding: 40px 0;
+    }
+
+    .banner-content {
+        margin-bottom: 40px;
+    }
+
+    .banner-title {
+        font-size: 3.5rem;
+        line-height: 52px;
+    }
+
+    .banner-description {
+        font-size: 1rem;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    /* Feature section */
+    .feature {
+        margin-top: 60px;
+        margin-bottom: 100px;
+        gap: 30px;
+        padding: 0 40px;
+    }
+
+    .feature-img-container {
+
+        gap: 20px;
+    }
+
+    .section-title {
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .section-description {
+        margin-top: 20px;
+        margin-bottom: 28px;
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+    /* Experience Section */
+    .experience {
+        margin-bottom: 90px;
+        gap: 30px;
+        padding: 0 40px;
+    }
+
+    .exp-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .facts{
+        padding: 0 40px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .fact-cards {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .fact-card {
+        padding:35px;
+    }
+
+    .fact-card h4 {
+        font-size: 2.5rem;
+    }
+
+    .sponsor {
+        margin-bottom: 100px;
+        padding: 0 40px;
+    }
+}
